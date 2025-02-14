@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-family-sans);
+  color: var(--color-text-body);
+  line-height: var(--line-height-body);
+}
+
+img,
+picture,
+svg {
+}
+
+input,
+button,
+textarea,
+select {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: var(--line-height-headers);
+  border: solid 1px white;
+}
+
+p {
+  line-height: var(--line-height-body);
+  border: solid 1px white;
+  font-size: var(--font-size-small);
+  padding: var(--space-small);
+}
