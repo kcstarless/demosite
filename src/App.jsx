@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/demo1" element={<CssTextClamp />} />
+        <Route path="/CssTextClamp" element={<CssTextClamp />} />
       </Routes>
     </Router>
   );

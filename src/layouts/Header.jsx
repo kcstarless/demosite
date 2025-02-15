@@ -15,13 +15,14 @@ export const Header = () => {
 
   return (
     <header>
-      <h4>DAVID GIM TECH DEMO</h4>
+      <h4>DAVE'S TECH DEMO</h4>
       <Box>
         <FormControl variant="outlined" size="small">
           <InputLabel>Select a demo</InputLabel>
           <Select value={demo} onChange={handleSelectChange}>
-            <MenuItem value="/demo1">CSS Responsive Text with Clamp</MenuItem>
-            <MenuItem value="/demo2">Demo 2</MenuItem>
+            <MenuItem value="/CssTextClamp">
+              CSS Responsive Text with Clamp
+            </MenuItem>
           </Select>
         </FormControl>
       </Box>
