@@ -1,0 +1,49 @@
+.MuiSelect-root {
+  width: 40vw;
+  // background-color: #f7f7f7;
+  border-radius: 4px;
+
+  .MuiSelect-icon {
+    color: #292929;
+    font-size: var(--font-size-l);
+  }
+  .MuiSelect-select {
+    background-color: var(--color-secondary);
+    outline: none !important;
+  }
+}
+
+.MuiInputLabel-root {
+  &.Mui-focused,
+  &.MuiFormLabel-filled {
+    display: none;
+  }
+}
+
+.MuiOutlinedInput-root {
+  &.Mui-focused {
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #ddd !important; // Match default border color
+      border-width: 1px !important;
+    }
+  }
+}
+
+.MuiSelect-select:focus {
+  outline: none !important;
+}
+
+// Style the dropdown menu globally (if needed)
+.MuiPopover-root {
+  .MuiPaper-root {
+    margin-top: 4px;
+    .MuiMenuItem-root {
+      &:hover {
+        background-color: #ddd;
+      }
+      &.Mui-selected {
+        background-color: var(--color-secondary);
+      }
+    }
+  }
+}

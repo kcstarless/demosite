@@ -23,18 +23,18 @@
   --line-height-body: 1.5;
 
   // Responsive font sizes system
-  --font-size-xsmall: clamp(0.5rem, 2vw, 0.75rem);
-  --font-size-small: clamp(0.75rem, 2.5vw, 1rem); /* Small: 0.5rem to 1rem */
-  --font-size-medium: clamp(1rem, 4vw, 1.75rem); /* Medium: 1rem to 1.75rem */
-  --font-size-large: clamp(1.75rem, 6vw, 2.5rem); /* Large: 1.75rem to 2.5rem */
-  --font-size-xlarge: clamp(2.5rem, 8vw, 3.5rem);
+  --font-size-xs: clamp(0.5rem, 2vw, 0.75rem);
+  --font-size-s: clamp(0.75rem, 2.5vw, 1rem); /* Small: 0.5rem to 1rem */
+  --font-size-m: clamp(1rem, 4vw, 1.75rem); /* Medium: 1rem to 1.75rem */
+  --font-size-l: clamp(1.75rem, 6vw, 2.5rem); /* Large: 1.75rem to 2.5rem */
+  --font-size-xl: clamp(2.5rem, 8vw, 3.5rem);
 
   // Responsive spacing system
-  --space-xsmall: clamp(0.1rem, 1.5vw, 0.25rem); /* Smallest space */
-  --space-small: clamp(0.25rem, 2vw, 0.5rem); /* Small: 0.25rem to 0.5rem */
-  --space-medium: clamp(0.5rem, 3.5vw, 1rem); /* Medium: 0.5rem to 1rem */
-  --space-large: clamp(1rem, 5vw, 2rem); /* Large: 1rem to 2rem */
-  --space-xlarge: clamp(2rem, 7vw, 3rem);
+  --space-xs: clamp(0.1rem, 1.5vw, 0.25rem); /* Smallest space */
+  --space-s: clamp(0.25rem, 2vw, 0.5rem); /* Small: 0.25rem to 0.5rem */
+  --space-m: clamp(0.5rem, 3.5vw, 1rem); /* Medium: 0.5rem to 1rem */
+  --space-l: clamp(1rem, 5vw, 2rem); /* Large: 1rem to 2rem */
+  --space-xl: clamp(2rem, 7vw, 3rem);
 
   // Three different text colors
   --color-text-header: hsl(0, 1%, 16%);
@@ -61,8 +61,8 @@
   --border-round: 50%;
 
   // Border
-  --border: solid 2px var(--color-dark);
-  --border-light: solid 2px var(--color-light);
+  --border-dark: solid 2px #000000;
+  --border-light: solid 1px var(--color-light);
 
   // Shadows
   --shadow-large: 2px 4px 5px hsla(0, 0%, 0%, 0.685);

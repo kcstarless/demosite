@@ -1,0 +1,38 @@
+.container {
+  --font-size-xs: clamp(0.5rem, 2vw, 1rem);
+  --font-size-s: clamp(0.75rem, 2.5vw, 1.25rem);
+  --font-size-m: clamp(1rem, 4vw, 1.75rem);
+  --font-size-l: clamp(1.25rem, 6vw, 2.5rem);
+  --font-size-xl: clamp(1.5rem, 8vw, 3rem);
+  h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-l);
+  }
+
+  h3 {
+    font-size: var(--font-size-m);
+  }
+
+  h4 {
+    font-size: var(--font-size-s);
+  }
+
+  h5 {
+    font-size: var(--font-size-xs);
+  }
+}
+
+// --font-size-xs: clamp(0.75vw, 2vw, 1vw);
+// --font-size-s: clamp(1vw, 2.5vw, 1.25vw);
+// --font-size-m: clamp(1.25vw, 4vw, 1.75vw);
+// --font-size-l: clamp(1.5vw, 6vw, 2.5vw);
+// --font-size-xl: clamp(1.75vw, 8vw, 3vw);
+
+// --font-size-xs: 1rem;
+// --font-size-s: 1.25rem;
+// --font-size-m: 1.75rem;
+// --font-size-l: 2.5rem;
+// --font-size-xl: 3rem;

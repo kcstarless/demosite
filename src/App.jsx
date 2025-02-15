@@ -1,11 +1,15 @@
+import CssTextClamp from "./demos/CssTextClamp";
+import { Header } from "./layouts/Header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <header>header</header>
-      <nav>nav</nav>
-      <main>body</main>
-      <footer>footer</footer>
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/demo1" element={<CssTextClamp />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -14,10 +14,13 @@ html {
 }
 
 body {
-  background-color: var(--color-bg);
+  background-color: var(--color-b-w);
   font-family: var(--font-family-sans);
   color: var(--color-text-body);
   line-height: var(--line-height-body);
+
+  width: 100vw;
+  height: 100vh;
 }
 
 img,
@@ -31,19 +34,37 @@ textarea,
 select {
 }
 
+h1 {
+  font-size: var(--font-size-xl);
+}
+
+h2 {
+  font-size: var(--font-size-l);
+}
+
+h3 {
+  font-size: var(--font-size-m);
+}
+
+h4 {
+  font-size: var(--font-size-s);
+}
+
+h5 {
+  font-size: var(--font-size-xs);
+}
+
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   line-height: var(--line-height-headers);
-  border: solid 1px white;
 }
 
 p {
   line-height: var(--line-height-body);
-  border: solid 1px white;
+  // border: solid 1px white;
   font-size: var(--font-size-small);
   padding: var(--space-small);
 }

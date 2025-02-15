@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-l);
+  border: var(--border-dark);
+  padding: var(--space-m);
+  background-color: black;
+
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
