@@ -23,6 +23,7 @@ export const Header = () => {
             <MenuItem value="/CssTextClamp">
               CSS Responsive Text with Clamp
             </MenuItem>
+            <MenuItem value="/SmoothScroll">Smooth Scrolling</MenuItem>
           </Select>
         </FormControl>
       </Box>

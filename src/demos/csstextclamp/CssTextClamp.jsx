@@ -1,6 +1,6 @@
-import styles from "./style.module.scss";
+import styles from "./styles.module.scss";
 
-const CssTextClamp = () => {
+export const CssTextClamp = () => {
   return (
     <main>
       <div className={styles.container}>
@@ -13,5 +13,3 @@ const CssTextClamp = () => {
     </main>
   );
 };
-
-export default CssTextClamp;
