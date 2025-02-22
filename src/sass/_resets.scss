@@ -10,6 +10,8 @@
 }
 
 html {
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -17,9 +19,6 @@ body {
   font-family: var(--font-family-sans);
   color: var(--color-text-body);
   line-height: var(--line-height-body);
-
-  width: 100vw;
-  height: 100vh;
 }
 
 img,
