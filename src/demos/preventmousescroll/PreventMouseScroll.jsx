@@ -42,12 +42,18 @@ export const PreventMouseScroll = () => {
   return (
     <main>
       <div className={styles.container}>
-        <h1>Prevent Mouse Scroll</h1>
-        <p>
-          This demo prevents mouse scroll after 5 attempts. Scroll attempts:
-          {counter}
-        </p>
-        <h3>{locked ? "Scroll is locked" : "Scroll is unlocked"}</h3>
+        <div className={styles.page1}>
+          <h1>Prevent Mouse Scroll</h1>
+          <p>
+            This demo prevents mouse scroll after 5 attempts. Scroll attempts:
+            {counter}
+          </p>
+          <h3>{locked ? "Scroll is locked" : "Scroll is unlocked"}</h3>
+        </div>
+        <div className={styles.page2}>
+          <h1>Page 2</h1>
+          <p>Scroll should work normally here</p>
+        </div>
       </div>
     </main>
   );

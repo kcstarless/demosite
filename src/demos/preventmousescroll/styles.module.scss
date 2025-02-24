@@ -1,7 +1,18 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+  .page1 {
+    padding: 20px;
+    background-color: hotpink;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+  .page2 {
+    width: 100vw;
+    height: 100vh;
+  }
 }
