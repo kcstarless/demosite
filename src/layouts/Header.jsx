@@ -28,6 +28,9 @@ export const Header = () => {
             <MenuItem value="/HoverProjectGallery">
               Hover Project Gallery
             </MenuItem>
+            <MenuItem value="/PreventMouseScroll">
+              Prevent Mouse Scroll
+            </MenuItem>
           </Select>
         </FormControl>
       </Box>
